@@ -1,0 +1,40 @@
+{
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.fontSize": 14,
+    "files.exclude": {
+        "**/p": true
+    },
+    "files.associations": { "*.module": "php" },
+    "window.restoreWindows": "none",
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "files.watcherExclude": {
+        "**/p": true
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter", /* move a borda de destaque de toda a linha para somente em torno do número da linha */
+    "editor.tabSize": 2,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never", //* evita alterações automática do caminho de importações após mover um arquivo */
+    "editor.parameterHints.enabled": false,
+    "breadcrumbs.enabled": true,
+    "javascript.suggest.autoImports": false,
+    "php.validate.executablePath": "/usr/local/bin/php72fpm",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+
+}
