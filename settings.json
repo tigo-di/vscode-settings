@@ -29,12 +29,14 @@
     "editor.parameterHints.enabled": false,
     "breadcrumbs.enabled": true,
     "javascript.suggest.autoImports": false,
-    "php.validate.executablePath": "/usr/local/bin/php72fpm",
+    //"php.validate.executablePath": "/usr/local/bin/php72fpm",
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    }
+    },
+    "telemetry.enableTelemetry": false,
+    "intelephense.telemetry.enabled": false
 
 }
